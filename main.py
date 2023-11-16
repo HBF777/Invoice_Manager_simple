@@ -1,7 +1,6 @@
 import os
 from io import StringIO
 
-import pandas as pd
 import streamlit as st
 if not os.path.exists("files"):
     os.mkdir("files")
